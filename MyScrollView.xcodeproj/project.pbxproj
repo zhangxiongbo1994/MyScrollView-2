@@ -15,6 +15,11 @@
 		467D7CCD1D224B3700329250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467D7CCB1D224B3700329250 /* LaunchScreen.storyboard */; };
 		467D7CD81D224B3800329250 /* MyScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D7CD71D224B3800329250 /* MyScrollViewTests.m */; };
 		467D7CE31D224B3800329250 /* MyScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D7CE21D224B3800329250 /* MyScrollViewUITests.m */; };
+		467D7CF51D224CAD00329250 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D7CF41D224CAD00329250 /* MyScrollView.m */; };
+		467D7CF81D224CCF00329250 /* MySegementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D7CF71D224CCF00329250 /* MySegementView.m */; };
+		467D7CFC1D22728900329250 /* MyViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D7CFA1D22728900329250 /* MyViewController1.m */; };
+		467D7CFD1D22728900329250 /* MyViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 467D7CFB1D22728900329250 /* MyViewController1.xib */; };
+		8DE508961E13A86D00844395 /* Mytableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE508951E13A86D00844395 /* Mytableview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		467D7CDE1D224B3800329250 /* MyScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		467D7CE21D224B3800329250 /* MyScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollViewUITests.m; sourceTree = "<group>"; };
 		467D7CE41D224B3800329250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467D7CF31D224CAD00329250 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		467D7CF41D224CAD00329250 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+		467D7CF61D224CCF00329250 /* MySegementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySegementView.h; sourceTree = "<group>"; };
+		467D7CF71D224CCF00329250 /* MySegementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySegementView.m; sourceTree = "<group>"; };
+		467D7CF91D22728900329250 /* MyViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController1.h; sourceTree = "<group>"; };
+		467D7CFA1D22728900329250 /* MyViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController1.m; sourceTree = "<group>"; };
+		467D7CFB1D22728900329250 /* MyViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController1.xib; sourceTree = "<group>"; };
+		8DE508941E13A86D00844395 /* Mytableview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mytableview.h; sourceTree = "<group>"; };
+		8DE508951E13A86D00844395 /* Mytableview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mytableview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +115,24 @@
 		467D7CBC1D224B3700329250 /* MyScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				467D7CF31D224CAD00329250 /* MyScrollView.h */,
+				467D7CF41D224CAD00329250 /* MyScrollView.m */,
+				467D7CF61D224CCF00329250 /* MySegementView.h */,
+				467D7CF71D224CCF00329250 /* MySegementView.m */,
 				467D7CC01D224B3700329250 /* AppDelegate.h */,
 				467D7CC11D224B3700329250 /* AppDelegate.m */,
 				467D7CC31D224B3700329250 /* ViewController.h */,
 				467D7CC41D224B3700329250 /* ViewController.m */,
+				8DE508941E13A86D00844395 /* Mytableview.h */,
+				8DE508951E13A86D00844395 /* Mytableview.m */,
 				467D7CC61D224B3700329250 /* Main.storyboard */,
 				467D7CC91D224B3700329250 /* Assets.xcassets */,
 				467D7CCB1D224B3700329250 /* LaunchScreen.storyboard */,
 				467D7CCE1D224B3700329250 /* Info.plist */,
 				467D7CBD1D224B3700329250 /* Supporting Files */,
+				467D7CF91D22728900329250 /* MyViewController1.h */,
+				467D7CFA1D22728900329250 /* MyViewController1.m */,
+				467D7CFB1D22728900329250 /* MyViewController1.xib */,
 			);
 			path = MyScrollView;
 			sourceTree = "<group>";
@@ -243,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467D7CFD1D22728900329250 /* MyViewController1.xib in Resources */,
 				467D7CCD1D224B3700329250 /* LaunchScreen.storyboard in Resources */,
 				467D7CCA1D224B3700329250 /* Assets.xcassets in Resources */,
 				467D7CC81D224B3700329250 /* Main.storyboard in Resources */,
@@ -271,8 +295,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				467D7CC51D224B3700329250 /* ViewController.m in Sources */,
+				467D7CF51D224CAD00329250 /* MyScrollView.m in Sources */,
+				467D7CFC1D22728900329250 /* MyViewController1.m in Sources */,
 				467D7CC21D224B3700329250 /* AppDelegate.m in Sources */,
+				8DE508961E13A86D00844395 /* Mytableview.m in Sources */,
 				467D7CBF1D224B3700329250 /* main.m in Sources */,
+				467D7CF81D224CCF00329250 /* MySegementView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +524,7 @@
 				467D7CE91D224B3800329250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		467D7CEA1D224B3800329250 /* Build configuration list for PBXNativeTarget "MyScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +533,7 @@
 				467D7CEC1D224B3800329250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		467D7CED1D224B3800329250 /* Build configuration list for PBXNativeTarget "MyScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +542,7 @@
 				467D7CEF1D224B3800329250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
